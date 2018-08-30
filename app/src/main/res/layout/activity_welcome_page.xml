@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myyellow"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context="com.example.khokan.datagelodataelo.WelcomePage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="2"
+        android:background="@color/myyellow"
+        android:layout_marginBottom="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:id="@+id/splash_title"
+            android:layout_weight="1"
+            android:background="@color/myredOne"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/khokan"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:translationY="-1000dp"
+            android:id="@+id/img_animation"
+            android:layout_weight="1"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:weightSum="3"
+            android:translationX="1000dp"
+            android:id="@+id/credit_section"
+            android:background="@color/myredOne"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/credit"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:id="@+id/slide_credit"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/developer"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_weight="2"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:id="@+id/slide_name"
+                android:padding="5dp"
+                />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LETS GO..."
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:shadowColor="#000"
+            android:id="@+id/lets_go"
+            android:layout_marginTop="30dp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

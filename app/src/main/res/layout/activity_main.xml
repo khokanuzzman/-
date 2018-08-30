@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="3"
+    android:background="@color/myyellow"
+    tools:context="com.example.khokan.datagelodataelo.MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:weightSum="1"
+           android:layout_weight="1"
+           >
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/title"
+               android:textAlignment="center"
+               android:padding="10dp"
+               android:textSize="30dp"
+               android:textStyle="bold"
+               android:textColor="@color/myredOne"
+               android:layout_weight="1"
+               />
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_weight="2"
+           android:padding="10dp"
+           >
+
+           <Button
+               android:id="@+id/outlines"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="5dp"
+               android:background="@drawable/button_selected"
+               android:text="Android Training Outlines"
+               android:textAlignment="center"
+               android:textColor="#fff"
+               android:textSize="20sp" />
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/button_selected"
+               android:textColor="#fff"
+               android:textSize="20sp"
+               android:layout_marginBottom="5dp"
+               android:text="Basic Java book eng"
+               android:textAlignment="center"
+               android:id="@+id/java_eng"
+               />
+
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/button_selected"
+               android:textColor="#fff"
+               android:textSize="20sp"
+               android:layout_marginBottom="5dp"
+               android:text="Bangla Java Basic"
+               android:textAlignment="center"
+               android:id="@+id/basic_Javabangla_Id"
+               />
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/button_selected"
+               android:textColor="#fff"
+               android:textSize="20sp"
+               android:layout_marginBottom="5dp"
+               android:text="sdmgap-B-28"
+               android:textAlignment="center"
+               android:id="@+id/sdmgapId"
+               />
+
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/button_selected"
+               android:textColor="#fff"
+               android:textSize="20sp"
+               android:layout_marginBottom="5dp"
+               android:text="All Project Code"
+               android:textAlignment="center"
+               android:id="@+id/all_proj_code_Id"
+               />
+
+
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/button_selected"
+               android:textColor="#fff"
+               android:textSize="20sp"
+               android:layout_marginBottom="5dp"
+               android:text="Implimentation"
+               android:textAlignment="center"
+               android:id="@+id/emplimentationId"
+               />
+
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/button_selected"
+               android:textColor="#fff"
+               android:textSize="20sp"
+               android:layout_marginBottom="5dp"
+               android:text="About The App"
+               android:textAlignment="center"
+               android:id="@+id/about_usId"
+               />
+       </LinearLayout>
+
+   </LinearLayout>
+
+</ScrollView>

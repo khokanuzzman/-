@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myyellow"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List View"
+            android:background="@drawable/button_selected"
+            android:id="@+id/list_view_project"
+            android:textColor="@color/myyellow"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:layout_marginBottom="5dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone Call"
+            android:background="@drawable/button_selected"
+            android:id="@+id/phone_project"
+            android:textColor="@color/myyellow"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:layout_marginBottom="5dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send SMS"
+            android:background="@drawable/button_selected"
+            android:id="@+id/sms_project"
+            android:textColor="@color/myyellow"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:layout_marginBottom="5dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Mail"
+            android:background="@drawable/button_selected"
+            android:id="@+id/mail_project"
+            android:textColor="@color/myyellow"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:layout_marginBottom="5dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Play Music"
+            android:background="@drawable/button_selected"
+            android:id="@+id/music_project"
+            android:textColor="@color/myyellow"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:layout_marginBottom="5dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="web view"
+            android:background="@drawable/button_selected"
+            android:id="@+id/web_project"
+            android:textColor="@color/myyellow"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:layout_marginBottom="5dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="splash screen"
+            android:background="@drawable/button_selected"
+            android:id="@+id/splash_project"
+            android:textColor="@color/myyellow"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:layout_marginBottom="5dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="passind data to activity"
+            android:background="@drawable/button_selected"
+            android:id="@+id/passing_project"
+            android:textColor="@color/myyellow"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:layout_marginBottom="5dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculator"
+            android:background="@drawable/button_selected"
+            android:id="@+id/calculator_project"
+            android:textColor="@color/myyellow"
+            android:textStyle="bold"
+            android:padding="20dp"
+            />
+
+    </LinearLayout>
+</ScrollView>

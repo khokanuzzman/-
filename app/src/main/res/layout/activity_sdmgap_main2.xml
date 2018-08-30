@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/myredOne"
+    tools:context="com.example.khokan.datagelodataelo.SdmgapMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trainer"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#fff"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:background="@color/myredOne"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/trainer_section"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/fahim_section"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="96dp"
+                    android:src="@drawable/fahimone"
+                    android:layout_gravity="center"
+                    android:id="@+id/fahim_img"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Famim Uddin"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textStyle="italic"
+                    android:padding="5dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0187908557"
+                    android:textColor="#fff"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:id="@+id/sajib_section"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="96dp"
+                    android:src="@drawable/sajib"
+                    android:layout_gravity="center"
+                    android:id="@+id/sajib_img"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Md.Kamruzzaman"
+                    android:textColor="#fff"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textStyle="italic"
+                    android:padding="5dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="01680910343"
+                    android:textColor="#fff"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/member_list"
+        android:layout_marginTop="10dp"
+        >
+
+
+    </ListView>
+</LinearLayout>

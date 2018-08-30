@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">DataGeloDataElo</string>
+    <string name="title">তথ্য নিয়ে খেলা</string>
+    <string name="credit">CREATED BY</string>
+    <string name="developer">MD.KHOKANUZZAMAN</string>
+    <string name="title_activity_sdmgap_main">SdmgapMain</string>
+    <string name="member_information">Member Information</string>
+    <string name="name">Name:</string>
+    <string name="khokan">khokan</string>
+    <string name="registration">Registration:</string>
+    <string name="_0000">0000</string>
+    <string name="contact">Contact:</string>
+    <string name="_000">000</string>
+    <string name="batch">Batch:</string>
+    <string name="_28">28</string>
+    <string name="todo">TODO</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="pause">||</string>
+    <string name="abou_us">
+        আসসালামু আলাইকুম,ধন্যবাদ আপনাকে আমাদের এই অ্যাপটি ব্যাবহার করার জন্যে
+        এই অ্যাপটি মূলত যারা এসডিএমজিএপি এর কোর্সটি করছেন!
+        এখানে আপনি এই কোর্স সম্পর্কিত সকল ধরনের সাহায্য পাবেন!
+        আমাদের সাথেই থাকুন, ধন্যবাদ।
+
+    </string>
+    <string name="developerbng">
+        অ্যাপ তৈরিকারী
+    </string>
+    <string name="namebg">
+       মোঃখোকনুজ্জামান খোকন
+    </string>
+</resources>
